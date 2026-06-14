@@ -74,4 +74,5 @@ Anyone adapting this course under a tight time constraint faces a genuine design
 ## Contact
 
 For inquiries or feedback, reach out at [duccio.gamannossi@unipd.it](mailto:duccio.gamannossi@unipd.it)
+
 Author: [Duccio Gamannossi degl'Innocenti](http://www.dgdi.me)
