@@ -15249,7 +15249,7 @@ This line has a blank line below-</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Also markdown has its own syntax to handle image size, but it is not alway rendered correctly, i.e., <code>![alternative text](img/pylogo.png =200x200)</code> leads to</p>
-<p><img src="img/pylogo.png =200x200" alt="alternative text"></p>
+<p><img src="../notebooks/img/pylogo.png" alt="alternative text" width="200" height="200"></p>
 
 </div>
 </div>
@@ -16871,13 +16871,13 @@ x inside local_fun is: 2
 <h3 id="A-Basic-Setup---Using-Relative-Paths">A Basic Setup - Using Relative Paths<a class="anchor-link" href="#A-Basic-Setup---Using-Relative-Paths">&#182;</a></h3><ol>
 <li><p>Usually, when you open a notebook the working directory is set to the folder that contains it (parent folder). So you can just use relative paths in your notebooks</p>
 <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
- <span class="n">GDP</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/GDP_istat.csv)</span>
+ <span class="n">tips</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/tips.csv&quot;</span><span class="p">)</span>
 </pre></div>
 <ul>
 <li>This code takes as a starting point the folder where the notebook is placed (the main project directory)</li>
 <li>Search in the folder <code>data</code> </li>
-<li>Opens the file <code>GDP_istat.csv</code></li>
-<li>Stores it in the variable GDP</li>
+<li>Opens the file <code>tips.csv</code></li>
+<li>Stores it in the variable tips</li>
 </ul>
 </li>
 </ol>
